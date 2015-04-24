@@ -1,0 +1,35 @@
+{
+  "name": "node-package-template",
+  "version": "1.0.0",
+  "description": "Um template para inicializar um pacote/projeto do node",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "example": "examples",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/henricavalcante/node-package-template.git"
+  },
+  "author": "Henri Cavalcante",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henricavalcante/node-package-template/issues"
+  },
+  "homepage": "https://github.com/henricavalcante/node-package-template",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-csslint": "^0.4.0",
+    "grunt-contrib-cssmin": "^0.12.2",
+    "grunt-contrib-imagemin": "^0.9.4",
+    "grunt-contrib-jshint": "^0.11.1",
+    "grunt-contrib-uglify": "^0.8.1"
+  },
+  "dependencies": {
+  }
+}
